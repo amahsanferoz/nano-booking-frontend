@@ -1,6 +1,6 @@
 
 export class Rental {
-  id: string;
+  _id: string;
   title: string;
   city: string;
   street: string;
@@ -8,6 +8,7 @@ export class Rental {
   image: string;
   bedrooms: string;
   description: string;
+  shared: boolean;
   dailyRate: string;
   createdAt: string;
 }
